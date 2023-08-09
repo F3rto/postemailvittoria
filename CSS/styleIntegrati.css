@@ -1,0 +1,32 @@
+#homeButton{
+	text-shadow: -2px 1px 1px #000;
+	width: 80;
+	height: 80;
+	background-color: #FF8400;
+	border: 5;
+	-webkit-border-radius: 100px;
+	float: left; 
+	position: fixed;
+}
+
+#homeButton:hover{
+	text-shadow: -2px 1px 1px #000;
+	width: 80;
+	height: 80;
+	background-color: blue;
+	border: 3;
+	-webkit-border-radius: 100px;
+	float: left; 
+	position: fixed;
+}
+
+body{
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+	background-position: center;
+	background-color: white;
+}
+
+a:link{
+	color: blue !important;
+}

@@ -1,0 +1,27 @@
+body {
+
+    /* Colore di sfondo per la pagina o per l’elemento che conterrà l’immagine. */
+    
+      
+    /* Posizione in cui si trova l’immagine */
+    background-image: url("../Sfondi/sfondohome.png");
+      
+    /* Immagine centrata sia verticalmente che orizzontalmente */
+    background-position: center center;
+      
+    /* L’immagine non viene ripetuta, quindi mostrata solo una volta. */
+    background-repeat: no-repeat;
+      
+    /* Immagine fissa, non scorrerà con la pagina */
+    background-attachment: fixed;
+      
+    /* Dimensione dell'immagine utilizzata come sfondo. L’immagine di sfondo si ridimensionerà in base alle dimensioni dell’intero contenitore */
+    background-size: cover;
+    }
+    
+    /* Per dispositivi mobili: posizione in cui si trova l’immagine */
+    @media only screen and (max-width: 767px) {
+    body {
+        background-image: url("../Sfondi/sfondohome_.png");
+    }
+    }
